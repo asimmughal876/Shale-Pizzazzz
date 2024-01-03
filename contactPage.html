@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <style>
+    .row {
+      --bs-gutter-x: 0rem;
+    }
+
+    .nav-item {
+      font-weight: bolder;
+      font-size: 15px;
+
+    }
+
+    .nav-item:hover {
+      opacity: 0.2;
+    }
+
+    .nav {
+      font-weight: bolder;
+      font-size: 13px;
+
+    }
+
+    a {
+      text-decoration: none;
+      margin-left: 20px;
+
+    }
+
+    #div1:hover {
+      opacity: 0.2;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    * {
+      color: white !important;
+    }
+
+    .nav_a {
+      padding: 1%;
+    }
+
+    .nav_li {
+      transition: 0.5s;
+    }
+
+    .nav_li:hover {
+      background-color: rgba(0, 81, 255, 0.812);
+    }
+
+    input::placeholder {
+      color: white !important;
+    }
+
+    textarea::placeholder {
+      color: white !important;
+    }
+
+    .btn {
+      background-color: rgba(255, 0, 0, 0.526);
+      transition: 0.5s;
+    }
+
+    .btn:hover {
+      background-color: rgba(0, 0, 0, 0.4);
+      border: 1px red solid;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    .bg-image {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+      background-position: cover;
+      background-size: cover;
+      width: 100%;
+      opacity: 0.3;
+    }
+  </style>
+</head>
+<img src="Picture/Contact Page background.jpg" alt="" class="bg-image">
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="Home.html"><img src="Picture/logo(1).png" height="90px" width="100%"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Home.html">HOME</a>
+          </li>
+          <li class="dropdown fw-bold">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              MENU
+            </a>
+            <ul class="dropdown-menu" style="background-color: black;" aria-labelledby="navbarDropdown">
+              <li class="nav_li"><a class="nav_a" href="Pizza Menu.html">Pizza</a></li>
+              <li class="nav_li"><a class="nav_a" href="Garlic bread Menu.html">Garlic Bread</a></li>
+              <li class="nav_li"><a class="nav_a" href="Pizza Sandwich Menu.html">Pizza Sandwich</a></li>
+              <li class="nav_li"><a class="nav_a" href="Dessert Menu.html">Dessert</a></li>
+              <li class="nav_li"><a class="nav_a" href="Beverages Menu.html">Beverages</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="GALLERY.HTML">GALLERY</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="menu download.html">MENU DOWNLOAD</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="Combo offer.html">COMBO OFFER</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="contactPage.html">CONTACT US</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="Weekend Special.html">WEEKEND SPECIAL</a>
+          </li>
+          <li class="dropdown fw-bold">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              MORE
+            </a>
+            <ul class="dropdown-menu" style="background-color: black;" aria-labelledby="navbarDropdown">
+              <li class="nav_li"><a class="nav_a" href="storeloca.html">STORE LOCATION</a></li>
+              <li class="nav_li"><a class="nav_a" href="Franchaise info.html">FRANCHISE INFO</a></li>
+              <li class="nav_li"><a class="nav_a" href="location.html">LOCATION</a></li>
+              <li class="nav_li"><a class="nav_a" href="Feedback.html">FEEDBACK</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container w-75 me-lg-5">
+    <div class="col-lg-9">
+      <h1 class="text-center mb-3 text-white">CONTACT US</h1>
+      <h2 class="text-center mb-3 text-white">MESSAGE-US</h2>
+      <form>
+
+        <div class="mb-3 text-white">
+          <input type="text" id="name" required pattern="^[a-zA-Z]{3,}$" class="form-control text-white"
+            placeholder="Name" aria-label="Username"
+            style="background-color: rgba(255, 255, 255, 0.408); border: 3px; ">
+        </div>
+
+        <div class="mb-3">
+          <input type="email" id="email" required class="form-control text-white" placeholder="Email" aria-label="Email"
+            style="background-color: rgba(255, 255, 255, 0.408); border: 3px; ">
+        </div>
+
+        <div class=" mb-3">
+          <input class="form-control text-white" required id="date" name="date" placeholder="Date" type="date"
+            style="background-color: rgba(255, 255, 255, 0.408); border: 3px; ">
+        </div>
+
+        <div class=" mb-3">
+          <input class="form-control text-white" required id="time" name="date" placeholder="Time" type="time"
+            style="background-color: rgba(255, 255, 255, 0.408); border: 3px; ">
+        </div>
+
+        <div class="mb-3">
+          <input type="text" required id="contact" class="form-control text-white" placeholder="Contact Number"
+            aria-label="Server" style="background-color: rgba(255, 255, 255, 0.408); border: 3px;">
+        </div>
+
+
+        <textarea required class="form-control mb-3 text-white" id="massage" placeholder="What you want to Order"
+          name="comment" rows="6" style="background-color: rgba(255, 255, 255, 0.408); border: 3px;"></textarea>
+
+        <div class="d-grid gap-2 col-6 col-lg-3 col-md-3 mx-auto">
+          <button onclick="feedback()" type="submit" class="btn py-2 rounded-pill mb-3">SEND</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <div class="">
+
+    <footer class="text-center text-lg-start text-white mt-5" style="background-color: rgba(45, 45, 45, 0.527)">
+      <!-- Grid container -->
+      <div class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-12 mb-md-0 col-11 ms-md-0 ms-4 ps-2 ps-md-0">
+
+            <a href="Home.html">
+              <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center mb-4 mx-auto"
+                style="width: 150px; height: 150px;">
+                <img src="Picture/logo(1).png" height="70" alt="" loading="lazy" class="">
+            </a>
+          </div>
+
+
+        </div>
+
+
+        <div class="col-11 col-lg-3 col-md-11 mb-4 mb-md-0 ms-md-2">
+
+          <ul>
+            <li class="mb-2 mt-3">
+              <a href="storeloca.html" id="div1" class="text-white fw-bold">Store location</a>
+            </li>
+            <li class="mb-2">
+              <a href="location.html" id="div1" class="text-white fw-bold">Location</a>
+            </li>
+            <li class="mb-2">
+              <a href="GALLERY.HTML" id="div1" class="text-white fw-bold">Gallery</a>
+            </li>
+            <li class="mb-2">
+              <a href="Feedback.html" id="div1" class="text-white fw-bold">Feedback</a>
+            </li>
+            <li class="mb-2">
+              <a href="contactPage.html" id="div1" class="text-white fw-bold">Contact US</a>
+            </li>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-11 col-lg-4 col-md-11 mb-4 mb-md-0 mb-md-0 mt-3 ms-md-3">
+
+
+          <ul>
+            <h6>Phone</h6>
+            <li>
+              <p>0211629111</p>
+            </li>
+            <h6>Email</h6>
+            <li>
+              <p>shalepizzazzz@.com.pk</p>
+            </li>
+            <h6>Address</h6>
+            <li>
+              <p>Shale PIZZAzzz - North Nazimabad, Karachi</p>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3 py-4" style="background-color: rgba(0, 0, 0, 0.082)">
+    © 2023 Copyright:
+    All Right Reserved
+  </div>
+  <!-- Copyright -->
+  </footer>
+
+  </div>
+
+
+  <script>
+
+    function feedback() {
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var contact = document.getElementById("contact").value;
+      var mass = document.getElementById("massage").value;
+      var date = document.getElementById("date").value;
+      var btn = document.getElementById("btn").value;
+
+      if (name !== "" && email !== "" && date !== "" && contact !== "" && mass !== "") {
+        alert("Your Massage has been Recieved");
+      }
+    }
+  </script>
+
+</body>
+
+</html>
